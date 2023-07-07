@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70A3EB0F-4D49-4A35-9D66-2A415E3A0208}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ONLINE_MOBILE_SHOP_MANAGEMENT_SYSTEM_2._0</RootNamespace>
+    <AssemblyName>ONLINE_MOBILE_SHOP_MANAGEMENT_SYSTEM_2.0</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_New_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_New_Employee.Designer.cs">
+      <DependentUpon>Add_New_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1.Designer.cs">
+      <DependentUpon>C1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Craft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Craft.Designer.cs">
+      <DependentUpon>Craft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Purchase.Designer.cs">
+      <DependentUpon>Customer_Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home1.Designer.cs">
+      <DependentUpon>Home1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iphonecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iphonecs.Designer.cs">
+      <DependentUpon>Iphonecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneSE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IphoneSE.Designer.cs">
+      <DependentUpon>IphoneSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iphone_11cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iphone_11cs.Designer.cs">
+      <DependentUpon>Iphone_11cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iphone_12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iphone_12.Designer.cs">
+      <DependentUpon>Iphone_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iphone_14_series.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iphone_14_series.Designer.cs">
+      <DependentUpon>Iphone_14_series.cs</DependentUpon>
+    </Compile>
+    <Compile Include="I_13_series.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="I_13_series.Designer.cs">
+      <DependentUpon>I_13_series.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mobile.Designer.cs">
+      <DependentUpon>Mobile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnePlus.Designer.cs">
+      <DependentUpon>OnePlus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlus_Phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnePlus_Phone.Designer.cs">
+      <DependentUpon>OnePlus_Phone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oppo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oppo.Designer.cs">
+      <DependentUpon>Oppo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oppo_Phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oppo_Phone.Designer.cs">
+      <DependentUpon>Oppo_Phone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner.Designer.cs">
+      <DependentUpon>Owner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profit_and_loose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profit_and_loose.Designer.cs">
+      <DependentUpon>Profit_and_loose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Realmecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Realmecs.Designer.cs">
+      <DependentUpon>Realmecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Realme_PHONE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Realme_PHONE.Designer.cs">
+      <DependentUpon>Realme_PHONE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review.Designer.cs">
+      <DependentUpon>Review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Sells.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Sells.Designer.cs">
+      <DependentUpon>Show_Sells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sign_up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign_up.Designer.cs">
+      <DependentUpon>Sign_up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Svmsungcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Svmsungcs.Designer.cs">
+      <DependentUpon>Svmsungcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Svmsung_Phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Svmsung_Phone.Designer.cs">
+      <DependentUpon>Svmsung_Phone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vivo.Designer.cs">
+      <DependentUpon>Vivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vivo_Phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vivo_Phone.Designer.cs">
+      <DependentUpon>Vivo_Phone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xaumi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xaumi.Designer.cs">
+      <DependentUpon>Xaumi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xaumi_Phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xaumi_Phone.Designer.cs">
+      <DependentUpon>Xaumi_Phone.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_New_Employee.resx">
+      <DependentUpon>Add_New_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C1.resx">
+      <DependentUpon>C1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Craft.resx">
+      <DependentUpon>Craft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Purchase.resx">
+      <DependentUpon>Customer_Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home1.resx">
+      <DependentUpon>Home1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iphonecs.resx">
+      <DependentUpon>Iphonecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IphoneSE.resx">
+      <DependentUpon>IphoneSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iphone_11cs.resx">
+      <DependentUpon>Iphone_11cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iphone_12.resx">
+      <DependentUpon>Iphone_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iphone_14_series.resx">
+      <DependentUpon>Iphone_14_series.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I_13_series.resx">
+      <DependentUpon>I_13_series.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mobile.resx">
+      <DependentUpon>Mobile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnePlus.resx">
+      <DependentUpon>OnePlus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnePlus_Phone.resx">
+      <DependentUpon>OnePlus_Phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oppo.resx">
+      <DependentUpon>Oppo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oppo_Phone.resx">
+      <DependentUpon>Oppo_Phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner.resx">
+      <DependentUpon>Owner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profit_and_loose.resx">
+      <DependentUpon>Profit_and_loose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Realmecs.resx">
+      <DependentUpon>Realmecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Realme_PHONE.resx">
+      <DependentUpon>Realme_PHONE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review.resx">
+      <DependentUpon>Review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Sells.resx">
+      <DependentUpon>Show_Sells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sign_up.resx">
+      <DependentUpon>Sign_up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Svmsungcs.resx">
+      <DependentUpon>Svmsungcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Svmsung_Phone.resx">
+      <DependentUpon>Svmsung_Phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vivo.resx">
+      <DependentUpon>Vivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vivo_Phone.resx">
+      <DependentUpon>Vivo_Phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xaumi.resx">
+      <DependentUpon>Xaumi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xaumi_Phone.resx">
+      <DependentUpon>Xaumi_Phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
